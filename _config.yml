@@ -9,7 +9,7 @@ exclude:
 - .gitignore
 - README.md
 prose:
-  rooturl: ''
+  rooturl: '_posts'
   siteurl: 'http://www.umantis.com/'
   media: 'assets/blog'
   ignore:
