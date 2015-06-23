@@ -4,7 +4,6 @@ markdown: rdiscount
 auto: true
 server: true
 pygments: true
-permalink: none
 root_dir: ""
 oauth_client_id: caf55c20366465a1332d
 gatekeeper_url: http://poole-oauth-staging.herokuapp.com
@@ -12,4 +11,5 @@ exclude:
   - .gitignore
   - README.md
 paginate: 10
-paginate_path: "blog/p:num/"
+paginate_path: "/blog/p:num/"
+permalink: "/blog/:title/"
