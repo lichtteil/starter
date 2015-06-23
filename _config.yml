@@ -10,7 +10,7 @@ exclude:
 - README.md
 prose:
   rooturl: '_posts'
-  siteurl: 'http://www.umantis.com/'
+  siteurl: 'http://www.example.com/'
   media: 'assets/blog'
   ignore:
     - index.html
@@ -20,23 +20,13 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "tags"
+      - name: "category"
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          element: "select"
+          label: "Kategorie"
+          placeholder: "Wählen Sie eine Kategorie aus"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+            - name: "Kategorie1"
+              value: "kategorie1"
+            - name: "Kategorie2"
+              value: "kategorie2"
