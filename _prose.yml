@@ -1,0 +1,31 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.example.com/'
+  media: 'assets/blog'
+  ignore:
+    - index.html
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Kategorie"
+          placeholder: "Wählen Sie eine Kategorie aus"
+          options:
+            - name: "Kategorie1"
+              value: "kategorie1"
+            - name: "Kategorie2"
+              value: "kategorie2"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Autor"
+          placeholder: "Name des Autors"
