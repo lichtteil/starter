@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Ich bin ein süper Titel
 category: kategorie1
 ---
